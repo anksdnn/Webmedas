@@ -1,4 +1,4 @@
-/* body{
+body{
     background: rgb(242, 242, 240);
     
     border-radius: 20%;
@@ -28,5 +28,5 @@ img{
 button:hover{
     background: rgb(174, 173, 173);
     cursor: pointer;
-} */
+} 
 

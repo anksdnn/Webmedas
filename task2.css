@@ -1,4 +1,4 @@
-/* body{
+body{
     
     margin: 0;
     padding: 0;
@@ -57,4 +57,4 @@
 /* Jab koi link par mouse le jaye (Hover effect) */
 .nav-links li a:hover {
     color: #0b28cb;             /* Aapke top bar waale blue color se match karega */
-} */
+} 
