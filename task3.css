@@ -1,0 +1,105 @@
+body{
+    background-color: #e2dcdc;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+.navlist{
+    background-color: aqua;
+    margin:0;
+    display:flex;
+    justify-content:right;
+    list-style: none;
+    gap:2rem;
+    padding-right:50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.navlist li a{
+    text-decoration: none;
+}
+
+/* first div */
+.second{
+    background-color: blue;
+    height:500px;
+    display:flex;
+    
+}
+
+.text{
+
+    margin-top: 90px;
+    margin-left:40px;
+}
+
+.pic{
+    margin-left:auto;
+}
+
+/* second div */
+.features{
+    background-color: burlywood;
+    height:500px;
+    Display:flex;
+    gap: 2px;
+}
+
+.third{
+    background-color: rgb(131, 100, 100);
+    height:500px;
+    width:500px;
+    
+}
+
+.four{
+    background-color: rgb(131, 100, 100);
+    height:300px;
+    width:300px;
+}
+
+.fifth{
+    background-color: rgb(131, 100, 100);
+    height:300px;
+    width:300px;
+}
+
+.stats{
+    background-color: chocolate;
+    width:100%;
+    height:200px;
+    padding-top:90px;
+    display: flex;
+    justify-content: space-around;
+    margin:0px;
+    padding:0px;
+}
+
+
+
+footer{
+    margin:0px;
+    background-color: rgb(103, 98, 98);
+    height:500px;   
+    margin:0px;
+    padding: 0px;
+
+}
+
+p{
+    margin:0px;
+    text-align: center;
+    padding-top: 70px;
+} 
+ 
+
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+} 

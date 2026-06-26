@@ -1,0 +1,60 @@
+/* body{
+    
+    margin: 0;
+    padding: 0;
+    background-color: #c7c2c2;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.logo{
+    background-color: navy;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    height: 20px;
+}
+
+.he{
+    padding-left: 55px;
+}
+
+.sec{
+    padding-left: 800px;
+ }  
+
+
+/* Poore white section (navbar) ko handle karne ke liye */
+.main-navbar {
+    display: flex;
+    justify-content: space-between; /* Logo ko left aur links ko right mein push karega */
+    align-items: center;        /* Logo aur text ko vertically center karega */
+    background-color: #ffffff;  /* Shuddh white background */
+    padding: 15px 40px;         /* Left-right aur top-bottom se thodi breathing space */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.05); /* Professional look ke liye thodi si shadow */
+}
+
+/* Links waale ul container ke liye */
+.nav-links {
+    display: flex;              /* Links ko horizontal line mein rakhega */
+    list-style: none;           /* Bullets hatane ke liye */
+    margin: 0;
+    padding: 0;
+    gap: 25px;                  /* Har link ke beech mein professional spacing */
+}
+
+/* Individual links ko sundar banane ke liye */
+.nav-links li a {
+    text-decoration: none;      /* Blue underline hatane ke liye */
+    color: #333333;             /* Professional dark grey color */
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+/* Jab koi link par mouse le jaye (Hover effect) */
+.nav-links li a:hover {
+    color: #0b28cb;             /* Aapke top bar waale blue color se match karega */
+} */

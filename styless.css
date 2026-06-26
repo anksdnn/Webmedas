@@ -1,0 +1,32 @@
+/* body{
+    background: rgb(242, 242, 240);
+    
+    border-radius: 20%;
+}
+
+h1{
+    background: rgb(174, 173, 173);
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;  
+    border-radius: 50%;
+}
+
+.card{
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    border: 6px solid black;
+    width: 400px;
+    height: 550px;
+    margin: 100px auto;
+}
+
+button:hover{
+    background: rgb(174, 173, 173);
+    cursor: pointer;
+} */
+

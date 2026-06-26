@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. Main Header Container */
+#white {
+    display: flex;
+    justify-content: space-between; /* Pushes left and right sections apart */
+    align-items: center;            
+    padding: 10px 20px;              
+    border-bottom: 1px solid #e0e0e0; 
+    background-color: #ffffff;
+}
+
+/* 3. Left Section Layout */
+.first {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Reduced gap to bring logo, menus, and search closer together */
+}
+
+/* Container for all dropdown menus to keep them grouped */
+.nav-menus {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Controls the space between each dropdown item */
+}
+
+/* 4. Dropdown Menus Styling */
+.list {
+    display: flex;
+    align-items: center;
+    gap: 7px; /* Pulls the label and select arrow tight together */
+}
+
+.list label {
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.list select {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    margin: 0; /* Removed the margin-right that pushed the arrow away */
+}
+
+/* 5. Search Box Styling */
+.searchbox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;    
+    padding: 5px 15px;
+    background-color: #f1f1f1;
+    margin-left: 10px; /* Gives the search bar a bit of breathing room from the menus */
+}
+
+.searchbox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    font-size: 15px;
+    width: 180px; /* Keeps the search box a sensible size */
+}
+
+.searchbox .search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* 6. Right Section Layout */
+.second {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.second a {
+    text-decoration: none; 
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.2s ease; 
+}
+
+.second a:hover {
+    color: #04AA6D; 
+}
+
+/* 7. Sign In Button */
+.sign-in {
+    background-color: #04AA6D; 
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px; 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.sign-in:hover {
+    background-color: #059862; 
+}
+
+.black{
+    background-color: #000000;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    gap: 700px;
+}
+
+.black a{
+        color: #059862;
+}
+
+
+
+/* main section */
+/* Hero Wrapper */
+.hero{
+    background:#25283a;
+    color:#fff;
+    min-height:730px;
+    padding:80px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+}
+
+/* Bottom wave */
+.hero::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-40px;
+    width:100%;
+    height:120px;
+    background:#d7e6dc;
+    border-radius:50% 50% 0 0;
+}
+
+/* Left Content */
+.hero-content{max-width:550px;z-index:2;}
+
+.hero h1{
+    font-size:80px;
+    margin:0 0 25px;
+    font-weight:700;
+}
+
+.sub{
+    font-size:22px;
+    line-height:1.6;
+}
+
+.sub span{
+    color:#fff28d;
+    font-weight:700;
+}
+
+.premium{
+    margin:40px 0 20px;
+    color:#ddd;
+}
+
+.features{
+    display:flex;
+    gap:80px;
+}
+
+.features ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.features li{
+    margin:18px 0;
+    color:#fff;
+    font-size:22px;
+}
+
+.member{
+    margin-top:30px;
+    font-size:22px;
+}
+
+.member a{
+    color:#04aa6d;
+    text-decoration:none;
+    font-weight:700;
+}
+
+/* Right Card */
+.hero-card{
+    width:420px;
+    background:rgba(255,255,255,.04);
+    padding:50px 35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+    z-index:2;
+}
+
+.avatars{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.circle{
+    width:65px;
+    height:65px;
+    background:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    margin-left:-8px;
+}
+
+.big{
+    width:110px;
+    height:110px;
+    font-size:55px;
+    margin:0;
+}
+
+.hero-card h3{
+    font-size:36px;
+    margin:20px 0 10px;
+}
+
+.hero-card p{
+    color:#ddd;
+    margin-bottom:35px;
+}
+
+.hero-card button{
+    width:100%;
+    border:none;
+    background:#04aa6d;
+    color:#fff;
+    padding:18px;
+    border-radius:10px;
+    font-size:22px;
+    cursor:pointer;
+}
+
+.dots{
+    margin-top:25px;
+}
+
+.dots span{
+    width:10px;
+    height:10px;
+    background:#777;
+    border-radius:50%;
+    display:inline-block;
+    margin:0 4px;
+}
+
+.dots .active{
+    width:24px;
+    background:#04aa6d;
+    border-radius:20px;
+}
+
+
